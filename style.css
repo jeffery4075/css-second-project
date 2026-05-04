@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    border: 2px solid black;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+.start, .about,.services,.portfolio,.contact{
+    text-decoration: none;
+    color: black;
+    font-weight: 549;
+    font-size: large;
+}
+.start{
+    margin-left: 15px;
+}
+.about{
+    margin-left:  70%;
+}
+.services,.portfolio,.contact{
+    margin-left: 18px;
+}
+a:hover{
+    color:brown
+}
