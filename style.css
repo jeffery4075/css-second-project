@@ -1,17 +1,25 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
 nav{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
     height: 50px;
     padding-top: 10px;
 }
 .start, .about,.services,.portfolio,.contact{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 549;
     font-size: large;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 .start{
     margin-left: 15px;
@@ -24,4 +32,26 @@ nav{
 }
 a:hover{
     color:brown
+}
+.Main-body{
+    /* border: 2px solid black; */
+    width: 600px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 450px;
+    padding: 20px;
+    word-spacing: 5px;
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.body-para{
+    color: #212529;
+}
+.button{
+    border: 2px solid black;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 10px;
 }
